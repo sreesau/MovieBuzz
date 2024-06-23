@@ -41,7 +41,7 @@ function UserRead() {
                 </div>
                 <div className="row mb-3">
                     <div className="col-12">
-                        <div className="d-flex justify-content-between align-items-center">
+                        <div className="d-flex justify-content-center align-items-center">
                             <input
                                 type="text"
                                 placeholder="Search here...."
@@ -55,20 +55,6 @@ function UserRead() {
                                     setSearchTerm(event.target.value);
                                 }}
                             />
-                            <Link
-                                to="/addmovie"
-                                className="btn"
-                                style={{
-                                    backgroundColor: '#ffffff',
-                                    color: '#76885B',
-                                    width: '150px',
-                                    height: '40px',
-                                    borderRadius: "5px",
-                                }}
-                            >
-                                <FontAwesomeIcon icon={faPlusCircle} style={{ marginRight: '0.5rem' }} />
-                                Movie
-                            </Link>
                         </div>
                     </div>
                 </div>
