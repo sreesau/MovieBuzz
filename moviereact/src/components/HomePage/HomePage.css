@@ -1,0 +1,35 @@
+/* Styles for the carousel images */
+.carousel .slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Container for the homepage */
+.homepage-container {
+    padding: 20px;
+}
+
+/* Recommended Slider */
+.recommended-slider {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 90%;
+}
+
+.movie-item {
+    text-align: center;
+    padding: 10px;
+}
+
+.movie-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.movie-item p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: white;
+}
