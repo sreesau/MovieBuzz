@@ -217,7 +217,7 @@ function BookingForm() {
                                 />
                             </div>
                             <div className="form-group text-center">
-                                <button className="btn btn-block customBtnClr" onClick={addBooking}>Book Ticket</button>
+                                <button className="btn btn-block" style={{backgroundColor:'#76885B'}} onClick={addBooking}>Book Ticket</button>
                             </div>
                         </div>
                     </div>
